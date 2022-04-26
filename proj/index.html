@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>YourShop</title>
+</head>
+<header class="bg-gradient-to-r from-indigo-500 via-purple-300 to-pink-300 shadow-2xl mb-10">
+  <div class="flex justify-center">
+      <div class="max-w-sm  id="logowrapper" >
+          <a href="#" "><img src="/YourShop/img/Google-logo.png" class="max-w-xs" alt="Logo azienda"></a>
+      </div>
+  </div>
+    <div id="menuwrapper" class="flex justify-center mb-5" style="margin: 2rem;">
+        
+        <ul class="py-1 text-sm text-gray-700 dark:text-gray-200 flex justify-center" aria-labelledby="dropdownDefault">
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Magliette</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Cuscini</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Preventivi</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Contatti</a>
+            </li>
+          </ul>
+        
+    </div>
+
+    
+</header>
+<body>
+
+    <div class="flex justify-center align-middle items-center space-y-0 shadow-2xl mt-36 space-x-5" id="articlewrapper" style="margin: 2rem; padding: 1rem;">
+      <div id="textwrapper">
+<p>"Non stampiamo le tue magliette, diamo vita ai tuoi ricordi"</p>
+      </div>
+      <div id="imgwrapper">
+        <img src="/YourShop/img/maglietta.jpeg" alt="maglietta stampata" class="m-w-200">
+
+      </div>
+
+    </div>
+    <div class="flex justify-center align-middle items-center space-y-0 shadow-2xl mt-36 space-x-5" id="articlewrapper" style="margin: 2rem;  padding: 1rem;">
+      <div id="textwrapper">
+<p>"Non stampiamo i tuoi cuscini, stampiamo i tuoi ricordi"</p>
+      </div>
+      <div id="imgwrapper" class="max-h-10">
+        <img src="/YourShop/img/cuscino.jpg" alt="maglietta stampata" class="w-50" style="max-width: 150px;">
+
+      </div>
+
+    </div>
+    <div class="flex justify-center align-middle items-center space-y-0 shadow-2xl mt-36 space-x-5" id="articlewrapper" style="margin: 2rem;  padding: 1rem;">
+      <div id="textwrapper">
+<p>"Non stampiamo le tue tazze, ti regaliamo un'emozione quando bevi il tuo caffè"</p>
+      </div>
+      <div id="imgwrapper" class="">
+        <img src="/YourShop/img/tazza.jpeg" alt="maglietta stampata" style="max-width: 10rem;">
+
+      </div>
+
+    </div>
+    <div class="flex justify-center align-middle items-center space-y-0 shadow-2xl mt-36 space-x-5" id="articlewrapper" style="margin: 2rem;  padding: 1rem;">
+      <div id="textwrapper">
+<p>"Non stampiamo le tue bicchieri, diamo un'identità al tuo locale"</p>
+      </div>
+      <div id="imgwrapper" class="max-h-10">
+        <img src="/YourShop/img/glass.png" alt="maglietta stampata" class="w-50" style="max-width: 160px;">
+
+      </div>
+
+    </div>
+    <div class="mt-50" id="modulewrapper">
+      <div class="flex justify-center" id="preventivatorewrapper">
+        <select name="quale articolo?" id="article">
+          <option value="maglietta" id="maglietta">Maglietta</option>
+          <option value="cuscino" id="cuscino">Cuscino</option>
+          <option value="tazza" id="tazza">Tazza</option>
+          <option value="bicchiere" id="bicchiere">Bicchiere</option>
+        </select>
+      </div>
+      <div class="flex justify-center" id="stampawrapper">
+        <select name="print" id="print">
+          <option value="foto" id="foto">Foto</option>
+          <option value="disegno" id="disegno">Disegno</option>
+          <option value="abstract" id="abstract">Abstract</option>
+          <option value="casual" id="casual">Casuale</option>
+
+        </select>
+       
+      </div>
+      <div class="flex justify-center">
+        <button id="genera">Click!</button>
+      </div>
+      <div style="margin: 2rem;" >
+        <div class="flex justify-center" id="resultwrapper">
+            
+        </div>
+        <p class="flex text-center justify-center" >Questo è il prezzo! <br> Contattaci subito <br> per organizzare un appuntamento!</p>
+          
+    </div>
+
+    </div>
+</body>
+<footer class="bg-gradient-to-r from-indigo-500 via-purple-300 to-pink-300 shadow-2xl">
+<div id="footerwrapper">
+  <ul class="flex justify-end" style="margin: 2rem; padding: 0.5rem;">
+    <li><a href="#"><img src="/YourShop/img/facebook.png" alt="facebook" style="max-width: 4rem;"></a></li>
+    <li><a href="#"><img src="/YourShop/img/insta.png" alt="instagram" style="max-width: 4rem;"></a></li>
+    <li><a href="#"><img src="/YourShop/img/twitter.png" alt="twitter" style="max-width: 4rem;"></a></li>
+    <li><a href="#"><img src="/YourShop/img/whatsapp.png" alt="whatsapp" style="max-width: 4rem;"></a></li>
+  </ul>
+</div>
+</footer>
+<script src="/YourShop/proj/index.js"></script>
+</html>
